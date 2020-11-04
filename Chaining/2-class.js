@@ -24,6 +24,6 @@ const txt = new Text('line1')
 
 console.log(`${txt}`);
 
-console.log('Text.pototype: ', Text.prototype);
-console.log('txt.pototype: ', txt.prototype);
+console.log('Text.pototype: ', Text.__proto__);
+console.log('txt.pototype: ', txt.__proto__);
 console.log('txt', txt);
